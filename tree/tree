@@ -1,0 +1,164 @@
+
+NTFS Directory Trees
+
+Just in case of the "hit by a bus" scenario, here's everything I've just
+learned about b-trees and how it should tie in to NTFS.  I've drawn a
+load of pictures to accompany this email which are on our website:
+
+    http://linux-ntfs.sf.net/tree/index.html
+
+Ask lots of questions and when everyone is happy, I'll webify the whole lot.
+
+
+Basic Terminology
+
+    key - An object bearing data
+    leaf - A key with no children
+    node - A collection of keys
+    order - A node of order n, has a maximum of n-1 keys
+    tree - an ordered data structured
+    root node - A node with no parent
+    median - The ((n-1)/2)th key in a node
+    siblings - Two keys in the same node, or two nodes with the same parent
+    depth - The number of layers in the tree.  Grandparent, parents, children = 3
+    b-tree - A balanced tree
+    b+tree - A balanced tree whose nodes are at least 1/2 full
+    b*tree - A balanced tree whose nodes are at least 2/3 full
+
+    successor
+    deficient node
+
+NTFS Tie in
+
+    index root
+    index allocation
+    dummy keys
+    data in non-leaf keys
+    on-disk pointer only point down
+
+What we have so far
+
+    ...
+
+Overview
+
+    ...
+
+Add Rules
+
+    Find the first key that is larger than the new key
+    (this will be a necessarily be a leaf)
+    Insert the new key before this key (in the same node)
+    While the node is full
+        Split the current node in two
+        Promote the median key to the parent
+        Now consider the parent
+    End
+  
+Delete Rules
+
+    Delete the key
+    If the key had children
+        Find the successor and move it to this node
+        Now consider the successor's old node
+    End
+    While the node isn't full enough
+        If a sibling has enough keys
+          steal one
+        Else
+          Combine with one of the sibling
+        End
+    End
+
+<flatcap>	hi _Oracle_
+<_Oracle_>	hi there
+<flatcap>	anything I can do for you?
+<_Oracle_>	I was wondering about the B+ trees of ntfs
+<_Oracle_>	they seem to be a bit awkward, or at least - not what I expected :)
+<flatcap>	they _do_ seem strange, but they are perfect for filesystems
+<_Oracle_>	no, i meant their on-disk representation
+<_Oracle_>	they have a dummy node of sorts?
+<flatcap>	the trees in ntfs aren't proper b+trees
+<flatcap>	a dummy key
+<_Oracle_>	that's exactly what I was hoping to hear!
+<flatcap>	(thinking is still a bit hard this morning, bear with me :-)
+<_Oracle_>	no problem ;-)
+<flatcap>	the trees consist of a node, which contains keys
+<flatcap>	the keys in a real (ideal world) b+tree are just separators, and the data is only stored in the leaves
+<_Oracle_>	right
+<_Oracle_>	btw - how big is a node under ntfs? i mean, how many keys fit in there?
+<flatcap>	the INDX record is 4k, an you can get 10's of filenames in it
+<flatcap>	but..., that depends on the lengths of the filenames
+<_Oracle_>	i thought the number of keys in a node was a fixed property of a b+ tree?
+<flatcap>	hehe, usually, yes
+<flatcap>	the keys of ntfs actually contain data and also a pointer to their children
+<_Oracle_>	so i noticed
+<AntonA>	one should add that INDX records of 2k size have also been seen in the wild -- by me (-:
+<_Oracle_>	really? 
+<_Oracle_>	what OS?
+<AntonA>	NT4
+<flatcap>	because there's one more child than key, there has to be a dummy key (no data, but has children)
+<_Oracle_>	interesting...
+<AntonA>	some of my directories (e.g. c:\winnt and c:\program files) have 2k INDX size while other dirs have 4k.
+<_Oracle_>	so the dummy key is always the "largest"?
+<flatcap>	yes
+<_Oracle_>	i see...
+<_Oracle_>	so if the non-leaf nodes have data of themselves, wouldn't that make the tree a b-tree?
+<flatcap>	I've just written a test program to help me understand the trees, which is on bitkeeper
+<_Oracle_>	I'd love to see that
+<flatcap>	I read a lots of webpages and I think that the nearest term is a b*tree
+<_Oracle_>	and how is it different from a b-tree?
+<flatcap>	a b-tree maintains a minimum of 1/2 full nodes (except for the root node)
+<flatcap>	a b*tree changes the rules slightly and maintains 2/3 full
+<_Oracle_>	so it just changes the rules of combining two nodes to one and such?
+<flatcap>	exactly
+<_Oracle_>	hmmm...
+<_Oracle_>	let me think about that for a moment :)
+<flatcap>	in a true b+tree, the data keys (leaves) should also have pointers to the next (for quick sequential accesses), but that's probably just maintained in memory
+<flatcap>	I'm going to write up everything I know about ntfs trees soon
+<_Oracle_>	let me see if i got that...
+<_Oracle_>	the index root points to the root INDX record
+<flatcap>	you can see my test prog at:  http://linux-ntfs.bkbits.net:8080/tng-support/src/tree
+<_Oracle_>	each INDX record contains keys that have pointers to the files themselves and to the keys with lower values
+<flatcap>	yes
+<_Oracle_>	I see
+<flatcap>	the index root lives in the MFT record
+<_Oracle_>	Yeah, this I managed to discover :)
+<flatcap>	all the rest (index allocations) are non-res
+<_Oracle_>	and the number of keys in a single INDX record is completely flexible?
+<AntonA>	yes
+<flatcap>	yes, but there's a minimum
+<AntonA>	a minimum?
+<flatcap>	yes, that's part of the tree algorithm
+<AntonA>	surely the minimum is a non-data containing terminator entry?
+<_Oracle_>	what's the minimum?
+<flatcap>	the minimum for a b+tree is 1/2 full, b* 2/3 full
+<flatcap>	only the root node may contain fewer
+<_Oracle_>	oh.
+<_Oracle_>	yeah
+<AntonA>	and the last node...
+<flatcap>	the keys are moved about to keep this true
+<flatcap>	even the last node will have the "right number" in it
+<AntonA>	that would mean that in a really large directory deleting one file could take hours?
+<flatcap>	no, you might think that, but the balancing doesn't affect many other nodes
+<flatcap>	if the tree is 4 deep (NTFS equiv say 10^5 files), you'd only be altering 4 index records
+<flatcap>	I'll draw lots of pictures when I have a moment (probably tomorrow)
+<_Oracle_>	that should be interesting to read!
+<flatcap>	are you on our dev mailing list, _Oracle_
+<_Oracle_>	What mailing list? (er... no.)
+<AntonA>	the major question that springs to my mind is what would windows ntfs do if it saw an imbalanced tree (because we messed up or because we simply chose to ignore balancing)
+<flatcap>	hehe, I hate to think :-)
+<_Oracle_>	I wouldn't want to be there, that's for sure
+<flatcap>	chkdsk would probably try and rebalance it and you might find that ntfs.sys would just balance it out as files were created/deleted
+<_Oracle_>	how do i join the list?
+<flatcap>	http://lists.sourceforge.net/lists/listinfo/linux-ntfs-dev
+<AntonA>	um, it would be a lot easier to get directory operations working while ignoring the existence of the tree (obviously operating on them correctly so we don't kill the fs)
+<flatcap>	I'll mail the list and answer questions there
+<AntonA>	if windows is able to pickup the pieces without complaint / failure, it would be worth considering as a first pass of implementation at least.
+<flatcap>	yes possibly, but I think I know enough now to build something close enough
+<flatcap>	(I just wanted a big project where I could start without tripping over you :-)
+<AntonA>	cool
+<_Oracle_>	I've got a few more questions if you have the time
+<AntonA>	As I said before. I am not going anywhere near directories. (-:
+<flatcap>	sure
+<_Oracle_>	Smaller ones, though

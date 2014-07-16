@@ -1,0 +1,42 @@
+digraph bla {
+rankdir=LR;
+
+"calc_percentage" -> "cluster_in_use";
+"copy_mft" -> "open_file";
+"copy_mft" -> "write_data";
+"find_first_attribute" -> "find_attribute";
+"get_data" -> "find_attribute";
+"get_filenames" -> "find_attribute";
+"get_filenames" -> "ntfs2utc";
+"main" -> "copy_mft";
+"main" -> "parse_options";
+"main" -> "scan_disk";
+"main" -> "undelete_file";
+"main" -> "valid_device";
+"parse_options" -> "parse_range";
+"parse_options" -> "parse_time";
+"parse_options" -> "transform";
+"parse_options" -> "usage";
+"parse_options" -> "version";
+"parse_range" -> "parse_size";
+"read_record" -> "find_first_attribute";
+"read_record" -> "free_file";
+"read_record" -> "get_data";
+"read_record" -> "get_filenames";
+"read_record" -> "ntfs2utc";
+"scan_disk" -> "calc_percentage";
+"scan_disk" -> "dump_record";
+"scan_disk" -> "free_file";
+"scan_disk" -> "list_record";
+"scan_disk" -> "name_match";
+"scan_disk" -> "read_record";
+"undelete_file" -> "calc_percentage";
+"undelete_file" -> "cluster_in_use";
+"undelete_file" -> "dump_record";
+"undelete_file" -> "free_file";
+"undelete_file" -> "list_record";
+"undelete_file" -> "open_file";
+"undelete_file" -> "read_record";
+"undelete_file" -> "write_data";
+
+};

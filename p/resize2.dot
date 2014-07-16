@@ -1,0 +1,551 @@
+digraph "bla" {
+	graph [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		rankdir = "LR"
+		bb = "0,0,728,714"
+		color = "black"
+	]
+	node [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "ellipse"
+		color = "black"
+	]
+	edge [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+	]
+	"build_lcn_usage_bitmap" [
+		label = "\N"
+		color = "black"
+		width = "2.190000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "617,696"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"compare_bitmaps" [
+		label = "\N"
+		color = "black"
+		width = "1.670000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "172,588"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"get_bitmap_data" [
+		label = "\N"
+		color = "black"
+		width = "1.580000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "172,534"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"get_new_volume_size" [
+		label = "\N"
+		color = "black"
+		width = "2.030000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "380,380"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"usage" [
+		label = "\N"
+		color = "black"
+		width = "0.750000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "617,361"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"look_for_bad_sector" [
+		label = "\N"
+		color = "black"
+		width = "1.890000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "380,18"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"lookup_data_attr" [
+		label = "\N"
+		color = "black"
+		width = "1.580000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "380,180"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"main" [
+		label = "\N"
+		color = "black"
+		width = "0.750000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "35,361"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"advise_on_resize" [
+		label = "\N"
+		color = "black"
+		width = "1.610000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "172,480"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"mount_volume" [
+		label = "\N"
+		color = "black"
+		width = "1.440000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "172,388"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"parse_options" [
+		label = "\N"
+		color = "black"
+		width = "1.360000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "172,334"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"prepare_volume_fixup" [
+		label = "\N"
+		color = "black"
+		width = "2.060000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "172,280"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"print_volume_size" [
+		label = "\N"
+		color = "black"
+		width = "1.720000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "380,434"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"setup_lcn_bitmap" [
+		label = "\N"
+		color = "black"
+		width = "1.670000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "380,288"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"truncate_badclust_file" [
+		label = "\N"
+		color = "black"
+		width = "2"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "172,126"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"truncate_bitmap_file" [
+		label = "\N"
+		color = "black"
+		width = "1.890000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "172,184"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"update_bootsector" [
+		label = "\N"
+		color = "black"
+		width = "1.690000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "172,72"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"walk_inodes" [
+		label = "\N"
+		color = "black"
+		width = "1.250000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "172,642"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"bitmap_file_data_fixup" [
+		label = "\N"
+		color = "black"
+		width = "2.110000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "617,234"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"nr_clusters_to_bitmap_byte_size" [
+		label = "\N"
+		color = "black"
+		width = "2.860000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "617,288"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"truncate_badclust_bad_attr" [
+		label = "\N"
+		color = "black"
+		width = "2.390000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "380,72"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"rl_set" [
+		label = "\N"
+		color = "black"
+		width = "0.750000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "617,126"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"write_mft_record" [
+		label = "\N"
+		color = "black"
+		width = "1.640000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "380,126"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"truncate_bitmap_unnamed_attr" [
+		label = "\N"
+		color = "black"
+		width = "2.690000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "380,234"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"walk_attributes" [
+		label = "\N"
+		color = "black"
+		width = "1.470000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "380,696"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"progress_init" [
+		label = "\N"
+		color = "black"
+		width = "1.310000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "380,642"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"progress_update" [
+		label = "\N"
+		color = "black"
+		width = "1.560000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "380,588"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"get_new_volume_size" -> "usage" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,590,363  450,374 491,371 544,367 579,364"
+		color = "black"
+	]
+	"main" -> "advise_on_resize" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,131,467  44,378 54,397 74,428 98,448 105,454 114,459 122,463"
+		color = "black"
+	]
+	"main" -> "compare_bitmaps" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,124,577  39,379 48,423 72,534 98,561 103,566 110,571 118,574"
+		color = "black"
+	]
+	"main" -> "get_bitmap_data" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,126,523  38,379 44,410 61,471 98,507 104,512 110,516 117,519"
+		color = "black"
+	]
+	"main" -> "mount_volume" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,126,379  61,366 77,369 98,374 116,377"
+		color = "black"
+	]
+	"main" -> "parse_options" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,129,343  61,356 77,353 99,348 119,345"
+		color = "black"
+	]
+	"main" -> "prepare_volume_fixup" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,125,294  50,346 62,334 80,317 98,307 104,304 110,301 116,298"
+		color = "black"
+	]
+	"main" -> "print_volume_size" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,321,440  48,377 60,390 78,407 98,415 168,443 255,444 313,441"
+		color = "black"
+	]
+	"main" -> "setup_lcn_bitmap" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,336,276  43,343 55,315 81,262 98,253 156,220 181,244 246,253 254,254 295,264 328,274"
+		color = "black"
+	]
+	"main" -> "truncate_badclust_file" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,123,139  39,343 48,298 73,185 98,157 103,152 108,148 114,144"
+		color = "black"
+	]
+	"main" -> "truncate_bitmap_file" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,129,198  39,343 46,314 64,256 98,220 105,213 112,208 120,203"
+		color = "black"
+	]
+	"main" -> "update_bootsector" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,122,83  37,343 44,290 66,135 98,99 103,94 108,91 113,88"
+		color = "black"
+	]
+	"main" -> "walk_inodes" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,130,634  37,379 44,431 67,579 98,615 105,622 113,627 121,630"
+		color = "black"
+	]
+	"mount_volume" -> "print_volume_size" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,330,423  216,398 247,405 290,414 323,421"
+		color = "black"
+	]
+	"parse_options" -> "get_new_volume_size" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,325,368  214,343 244,350 285,359 318,366"
+		color = "black"
+	]
+	"parse_options" -> "usage" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,590,359  220,337 311,343 505,354 583,359"
+		color = "black"
+	]
+	"setup_lcn_bitmap" -> "bitmap_file_data_fixup" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,562,247  428,277 464,269 514,258 554,249"
+		color = "black"
+	]
+	"setup_lcn_bitmap" -> "nr_clusters_to_bitmap_byte_size" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,514,288  440,288 459,288 482,288 504,288"
+		color = "black"
+	]
+	"truncate_badclust_bad_attr" -> "rl_set" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,591,120  438,85 484,95 546,110 583,118"
+		color = "black"
+	]
+	"truncate_badclust_file" -> "look_for_bad_sector" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,321,27  222,113 231,109 239,105 246,99 269,82 259,62 282,45 291,39 302,34 312,30"
+		color = "black"
+	]
+	"truncate_badclust_file" -> "lookup_data_attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,336,168  222,139 255,147 297,158 329,166"
+		color = "black"
+	]
+	"truncate_badclust_file" -> "truncate_badclust_bad_attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,326,86  222,113 250,106 286,96 316,88"
+		color = "black"
+	]
+	"truncate_badclust_file" -> "write_mft_record" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,321,126  245,126 267,126 290,126 311,126"
+		color = "black"
+	]
+	"truncate_bitmap_file" -> "lookup_data_attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,323,181  240,183 264,183 290,182 313,181"
+		color = "black"
+	]
+	"truncate_bitmap_file" -> "truncate_bitmap_unnamed_attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,320,220  223,196 249,202 282,210 311,218"
+		color = "black"
+	]
+	"truncate_bitmap_file" -> "write_mft_record" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,335,138  218,171 238,165 261,159 282,153 297,149 312,144 326,140"
+		color = "black"
+	]
+	"truncate_bitmap_unnamed_attr" -> "bitmap_file_data_fixup" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,541,234  478,234 496,234 514,234 531,234"
+		color = "black"
+	]
+	"truncate_bitmap_unnamed_attr" -> "nr_clusters_to_bitmap_byte_size" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,554,274  442,248 474,255 513,265 547,272"
+		color = "black"
+	]
+	"truncate_bitmap_unnamed_attr" -> "rl_set" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,598,139  440,220 453,216 466,212 478,207 518,190 562,163 590,145"
+		color = "black"
+	]
+	"walk_attributes" -> "build_lcn_usage_bitmap" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,538,696  434,696 462,696 496,696 528,696"
+		color = "black"
+	]
+	"walk_inodes" -> "progress_init" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,333,642  218,642 249,642 289,642 322,642"
+		color = "black"
+	]
+	"walk_inodes" -> "progress_update" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,336,599  210,632 244,624 292,611 328,601"
+		color = "black"
+	]
+	"walk_inodes" -> "walk_attributes" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,338,685  210,652 244,660 293,673 330,683"
+		color = "black"
+	]
+}

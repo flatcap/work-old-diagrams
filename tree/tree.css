@@ -1,0 +1,52 @@
+body {
+  margin: 10px 32px 10px 32px;
+  color: #000;
+  background-color: #ffc;
+}
+
+a:link {
+  color: #000;
+  background-color: transparent;
+}
+
+a:visited {
+  color: #000;
+  background-color: transparent;
+}
+
+a:active {
+  color: #000;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #069;
+}
+
+h1, h2, h3 {
+  text-align: left;
+  color: #069;
+  background-color: transparent;
+}
+
+dt {
+  padding-top: 0.5em;
+  font-weight: bold;
+}
+
+p, dd {
+  text-align: justify;
+  max-width: 570px;
+}
+
+div.figure {
+  margin-top: 2em;
+  font: 50% normal;
+  font-weight: bold;
+}
+
+q {
+  font-weight: bold;
+}
+

@@ -1,0 +1,1670 @@
+digraph "bla" {
+	graph [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		rankdir = "LR"
+		bb = "0,0,3446,1408"
+		color = "black"
+	]
+	node [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "ellipse"
+		color = "black"
+	]
+	edge [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+	]
+	"allocate_ntfs_inode" [
+		label = "\N"
+		color = "black"
+		width = "1.810000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "656,246"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"get_attribute_value" [
+		label = "\N"
+		color = "black"
+		width = "1.780000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1828,393"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_decompress_mapping_pairs" [
+		label = "\N"
+		color = "black"
+		width = "2.830000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "2769,438"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_pread" [
+		label = "\N"
+		color = "black"
+		width = "1.110000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "2378,456"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"is_boot_sector_ntfs" [
+		label = "\N"
+		color = "black"
+		width = "1.810000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "450,516"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_are_names_equal" [
+		label = "\N"
+		color = "black"
+		width = "2.030000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1454,1116"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_ucsncasecmp" [
+		label = "\N"
+		color = "black"
+		width = "1.690000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1647,1089"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_ucsncmp" [
+		label = "\N"
+		color = "black"
+		width = "1.360000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1647,1143"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_attr_find_vcn" [
+		label = "\N"
+		color = "black"
+		width = "1.720000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "2378,616"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_attr_map_run_list" [
+		label = "\N"
+		color = "black"
+		width = "2.060000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "2556,616"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_lookup_attr" [
+		label = "\N"
+		color = "black"
+		width = "1.560000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "856,940"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_attr_mst_pread" [
+		label = "\N"
+		color = "black"
+		width = "1.830000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "2004,764"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_attr_pread" [
+		label = "\N"
+		color = "black"
+		width = "1.440000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "2190,764"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_post_read_mst_fixup" [
+		label = "\N"
+		color = "black"
+		width = "2.310000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "2190,569"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_attr_mst_pwrite" [
+		label = "\N"
+		color = "black"
+		width = "1.890000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1249,500"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_attr_pwrite" [
+		label = "\N"
+		color = "black"
+		width = "1.530000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "656,435"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_post_write_mst_fixup" [
+		label = "\N"
+		color = "black"
+		width = "2.390000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1454,500"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_pre_write_mst_fixup" [
+		label = "\N"
+		color = "black"
+		width = "2.310000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1454,446"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_attr_open" [
+		label = "\N"
+		color = "black"
+		width = "1.390000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "656,848"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_attr_init" [
+		label = "\N"
+		color = "black"
+		width = "1.280000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "856,848"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_pwrite" [
+		label = "\N"
+		color = "black"
+		width = "1.170000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1454,308"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_write_mft_record" [
+		label = "\N"
+		color = "black"
+		width = "2.030000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "856,512"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_attr_vcn_to_lcn" [
+		label = "\N"
+		color = "black"
+		width = "1.890000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "2378,402"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_rl_vcn_to_lcn" [
+		label = "\N"
+		color = "black"
+		width = "1.750000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "2556,402"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_close_inode" [
+		label = "\N"
+		color = "black"
+		width = "1.580000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1249,316"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_collate_names" [
+		label = "\N"
+		color = "black"
+		width = "1.780000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1454,1009"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_debug_dump_run_list" [
+		label = "\N"
+		color = "black"
+		width = "2.390000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "3170,530"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_merge_run_lists" [
+		label = "\N"
+		color = "black"
+		width = "1.920000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "2978,415"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_file_compare_values" [
+		label = "\N"
+		color = "black"
+		width = "2.280000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1249,940"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_find_attr" [
+		label = "\N"
+		color = "black"
+		width = "1.330000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1249,1032"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_find_external_attr" [
+		label = "\N"
+		color = "black"
+		width = "2.060000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1054,953"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_open_extent_inode" [
+		label = "\N"
+		color = "black"
+		width = "2.140000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1249,810"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_get_parent_mft_ref" [
+		label = "\N"
+		color = "black"
+		width = "2.170000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "656,1238"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_load_mft" [
+		label = "\N"
+		color = "black"
+		width = "1.360000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "450,338"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"get_attribute_value_length" [
+		label = "\N"
+		color = "black"
+		width = "2.360000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "856,566"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_load_mftmirr" [
+		label = "\N"
+		color = "black"
+		width = "1.690000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "450,649"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_attr_close" [
+		label = "\N"
+		color = "black"
+		width = "1.420000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "656,603"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_open_inode" [
+		label = "\N"
+		color = "black"
+		width = "1.580000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "656,695"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_mst_pread" [
+		label = "\N"
+		color = "black"
+		width = "1.470000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "2004,490"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_lookup_inode_by_name" [
+		label = "\N"
+		color = "black"
+		width = "2.560000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "450,913"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_rl_append" [
+		label = "\N"
+		color = "black"
+		width = "1.440000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "3170,346"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_rl_insert" [
+		label = "\N"
+		color = "black"
+		width = "1.310000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "3170,292"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_rl_mm" [
+		label = "\N"
+		color = "black"
+		width = "1.190000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "3365,400"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_rl_realloc" [
+		label = "\N"
+		color = "black"
+		width = "1.420000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "3365,346"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_rl_replace" [
+		label = "\N"
+		color = "black"
+		width = "1.440000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "3170,238"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_rl_split" [
+		label = "\N"
+		color = "black"
+		width = "1.220000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "3170,438"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_mount" [
+		label = "\N"
+		color = "black"
+		width = "1.170000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "50,439"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_get_mft_record_data_size" [
+		label = "\N"
+		color = "black"
+		width = "2.690000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "225,78"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_startup_volume" [
+		label = "\N"
+		color = "black"
+		width = "1.890000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "225,462"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_ucstombs" [
+		label = "\N"
+		color = "black"
+		width = "1.420000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "225,24"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_mst_pwrite" [
+		label = "\N"
+		color = "black"
+		width = "1.560000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1249,446"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_read_file_record" [
+		label = "\N"
+		color = "black"
+		width = "1.940000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1454,764"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_read_clusters" [
+		label = "\N"
+		color = "black"
+		width = "1.690000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "2190,425"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_readdir" [
+		label = "\N"
+		color = "black"
+		width = "1.220000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "450,1146"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_filldir" [
+		label = "\N"
+		color = "black"
+		width = "1.110000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "656,1146"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_read_mft_record" [
+		label = "\N"
+		color = "black"
+		width = "1.970000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1647,764"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_read_mft_records" [
+		label = "\N"
+		color = "black"
+		width = "2.030000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1828,764"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_reset_logfile" [
+		label = "\N"
+		color = "black"
+		width = "1.640000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "450,579"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_are_rl_mergeable" [
+		label = "\N"
+		color = "black"
+		width = "2.030000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "3365,238"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_rl_mc" [
+		label = "\N"
+		color = "black"
+		width = "1.110000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "3365,292"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_rl_merge" [
+		label = "\N"
+		color = "black"
+		width = "1.360000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "3170,184"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_rl_pwrite" [
+		label = "\N"
+		color = "black"
+		width = "1.390000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1249,262"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_set_volume_flags" [
+		label = "\N"
+		color = "black"
+		width = "2.030000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "656,794"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"parse_ntfs_boot_sector" [
+		label = "\N"
+		color = "black"
+		width = "2.080000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "450,462"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_walk_attrs" [
+		label = "\N"
+		color = "black"
+		width = "1.470000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "656,978"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_write_clusters" [
+		label = "\N"
+		color = "black"
+		width = "1.750000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1249,208"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ntfs_write_mft_records" [
+		label = "\N"
+		color = "black"
+		width = "2.110000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1054,512"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"get_attribute_value" -> "ntfs_decompress_mapping_pairs" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2738,421  1877,381 1946,366 2077,340 2190,341 2190,341 2190,341 2378,341 2492,340 2522,343 2630,375 2665,385 2703,402 2729,416"
+		color = "black"
+	]
+	"get_attribute_value" -> "ntfs_pread" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2338,458  1874,406 1929,420 2024,442 2106,452 2184,461 2276,460 2331,458"
+		color = "black"
+	]
+	"ntfs_are_names_equal" -> "ntfs_ucsncasecmp" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1592,1097  1518,1107 1539,1104 1562,1101 1583,1098"
+		color = "black"
+	]
+	"ntfs_are_names_equal" -> "ntfs_ucsncmp" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1601,1137  1518,1125 1542,1129 1569,1132 1592,1136"
+		color = "black"
+	]
+	"ntfs_attr_find_vcn" -> "ntfs_attr_map_run_list" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2482,616  2440,616 2451,616 2461,616 2472,616"
+		color = "black"
+	]
+	"ntfs_attr_map_run_list" -> "ntfs_decompress_mapping_pairs" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2748,456  2577,599 2615,567 2699,497 2742,461"
+		color = "black"
+	]
+	"ntfs_attr_map_run_list" -> "ntfs_lookup_attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "s,880,956  886,960 998,1033 1395,1266 1718,1170 2094,1057 2456,715 2538,634"
+		color = "black"
+	]
+	"ntfs_attr_mst_pread" -> "ntfs_attr_pread" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2137,764  2070,764 2089,764 2110,764 2128,764"
+		color = "black"
+	]
+	"ntfs_attr_mst_pread" -> "ntfs_post_read_mst_fixup" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2173,587  2021,746 2054,711 2131,631 2168,592"
+		color = "black"
+	]
+	"ntfs_attr_mst_pwrite" -> "ntfs_attr_pwrite" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "s,709,440  717,441 808,450 983,468 1130,485 1149,487 1169,490 1188,492"
+		color = "black"
+	]
+	"ntfs_attr_mst_pwrite" -> "ntfs_post_write_mst_fixup" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1368,500  1318,500 1331,500 1344,500 1358,500"
+		color = "black"
+	]
+	"ntfs_attr_mst_pwrite" -> "ntfs_pre_write_mst_fixup" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1401,460  1298,487 1326,480 1361,470 1391,462"
+		color = "black"
+	]
+	"ntfs_attr_open" -> "ntfs_attr_init" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,809,848  707,848 735,848 771,848 800,848"
+		color = "black"
+	]
+	"ntfs_attr_open" -> "ntfs_lookup_attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,824,925  687,862 722,878 778,904 816,921"
+		color = "black"
+	]
+	"ntfs_attr_pread" -> "ntfs_attr_find_vcn" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2357,633  2211,747 2245,721 2310,669 2349,639"
+		color = "black"
+	]
+	"ntfs_attr_pread" -> "ntfs_lookup_attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "s,904,931  911,930 987,916 1129,893 1249,894 1249,894 1249,894 1828,894 1962,893 2107,814 2165,780"
+		color = "black"
+	]
+	"ntfs_attr_pread" -> "ntfs_pread" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2367,474  2201,746 2233,693 2325,542 2362,482"
+		color = "black"
+	]
+	"ntfs_attr_pwrite" -> "ntfs_attr_find_vcn" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2316,615  711,433 804,429 1001,421 1166,419 1333,416 1376,393 1540,419 1801,458 1848,546 2106,596 2175,608 2254,614 2309,615"
+		color = "black"
+	]
+	"ntfs_attr_pwrite" -> "ntfs_lookup_attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,825,925  673,452 692,472 720,507 734,543 788,681 697,745 770,875 781,894 800,909 817,920"
+		color = "black"
+	]
+	"ntfs_attr_pwrite" -> "ntfs_pwrite" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1421,319  680,419 702,405 737,385 770,376 1012,309 1086,385 1332,343 1360,338 1390,329 1413,322"
+		color = "black"
+	]
+	"ntfs_attr_pwrite" -> "ntfs_write_mft_record" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,816,497  691,449 714,458 744,470 770,480 782,484 795,489 807,494"
+		color = "black"
+	]
+	"ntfs_attr_vcn_to_lcn" -> "ntfs_attr_map_run_list" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2550,598  2425,415 2432,419 2440,423 2446,429 2499,473 2532,550 2547,590"
+		color = "black"
+	]
+	"ntfs_attr_vcn_to_lcn" -> "ntfs_rl_vcn_to_lcn" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2493,402  2446,402 2458,402 2471,402 2483,402"
+		color = "black"
+	]
+	"ntfs_decompress_mapping_pairs" -> "ntfs_debug_dump_run_list" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3112,517  2832,452 2906,469 3029,497 3105,515"
+		color = "black"
+	]
+	"ntfs_decompress_mapping_pairs" -> "ntfs_merge_run_lists" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2914,422  2856,428 2872,426 2888,425 2904,423"
+		color = "black"
+	]
+	"ntfs_file_compare_values" -> "ntfs_collate_names" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1413,995  1294,955 1327,966 1372,981 1406,993"
+		color = "black"
+	]
+	"ntfs_find_attr" -> "ntfs_are_names_equal" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1416,1100  1282,1045 1317,1059 1370,1082 1408,1097"
+		color = "black"
+	]
+	"ntfs_find_attr" -> "ntfs_collate_names" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1394,1016  1296,1027 1322,1024 1355,1020 1384,1017"
+		color = "black"
+	]
+	"ntfs_find_external_attr" -> "ntfs_are_names_equal" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1382,1113  1068,971 1087,995 1125,1037 1166,1059 1231,1092 1313,1106 1374,1112"
+		color = "black"
+	]
+	"ntfs_find_external_attr" -> "ntfs_close_inode" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1231,333  1057,935 1073,847 1144,467 1166,419 1181,388 1206,359 1225,339"
+		color = "black"
+	]
+	"ntfs_find_external_attr" -> "ntfs_collate_names" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1396,1001  1119,962 1194,973 1316,990 1389,1000"
+		color = "black"
+	]
+	"ntfs_find_external_attr" -> "ntfs_find_attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1215,1019  1091,969 1113,978 1141,990 1166,1000 1179,1005 1193,1010 1206,1015"
+		color = "black"
+	]
+	"ntfs_find_external_attr" -> "ntfs_open_extent_inode" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1225,827  1078,936 1113,911 1178,862 1217,833"
+		color = "black"
+	]
+	"ntfs_get_parent_mft_ref" -> "ntfs_lookup_attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,853,958  705,1224 716,1219 726,1214 734,1206 807,1136 840,1016 852,965"
+		color = "black"
+	]
+	"ntfs_load_mft" -> "allocate_ntfs_inode" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,618,261  480,324 506,311 544,293 578,278 588,273 599,269 609,265"
+		color = "black"
+	]
+	"ntfs_load_mft" -> "get_attribute_value" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1818,375  460,320 480,289 525,223 578,186 686,110 725,85 856,86 856,86 856,86 1454,86 1633,85 1772,296 1814,369"
+		color = "black"
+	]
+	"ntfs_load_mft" -> "get_attribute_value_length" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,800,552  487,350 506,358 528,370 542,388 559,408 559,416 569,440 574,449 571,454 578,462 632,509 672,469 734,505 754,515 752,527 770,539 776,542 783,546 791,549"
+		color = "black"
+	]
+	"ntfs_load_mftmirr" -> "ntfs_attr_close" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,612,613  499,638 531,631 573,621 605,614"
+		color = "black"
+	]
+	"ntfs_load_mftmirr" -> "ntfs_attr_map_run_list" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2506,629  472,666 496,684 537,711 578,722 646,739 665,723 734,722 911,717 955,716 1130,702 1147,700 1150,699 1166,698 1352,685 1818,676 2004,677 2004,677 2004,677 2190,677 2300,676 2424,650 2496,631"
+		color = "black"
+	]
+	"ntfs_load_mftmirr" -> "ntfs_attr_open" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,613,838  463,667 494,709 571,815 578,821 586,826 595,831 604,835"
+		color = "black"
+	]
+	"ntfs_load_mftmirr" -> "ntfs_close_inode" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1226,333  510,653 584,656 702,657 734,630 785,587 722,530 770,485 889,373 985,490 1130,418 1172,397 1172,377 1207,348 1211,345 1214,342 1218,339"
+		color = "black"
+	]
+	"ntfs_load_mftmirr" -> "ntfs_open_inode" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,609,685  499,660 530,667 570,676 602,683"
+		color = "black"
+	]
+	"ntfs_load_mft" -> "ntfs_attr_close" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,613,593  482,352 502,363 528,380 542,402 585,465 529,512 578,571 585,579 594,585 604,589"
+		color = "black"
+	]
+	"ntfs_load_mft" -> "ntfs_attr_open" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,610,841  473,354 495,371 527,401 542,435 578,513 525,753 578,821 584,828 592,834 601,837"
+		color = "black"
+	]
+	"ntfs_load_mft" -> "ntfs_close_inode" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1198,307  498,333 555,328 652,317 734,306 751,303 754,301 770,300 930,286 971,289 1130,300 1150,301 1170,303 1189,306"
+		color = "black"
+	]
+	"ntfs_load_mft" -> "ntfs_decompress_mapping_pairs" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2763,420  488,326 513,319 548,309 578,302 647,285 666,290 734,273 1220,151 1328,9 1828,10 1828,10 1828,10 2378,10 2597,9 2726,319 2760,412"
+		color = "black"
+	]
+	"ntfs_load_mft" -> "ntfs_lookup_attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,828,924  481,352 501,363 526,379 542,399 560,420 560,429 569,456 575,472 568,480 578,495 626,556 690,511 734,576 739,583 766,873 770,881 776,891 801,908 822,920"
+		color = "black"
+	]
+	"ntfs_load_mft" -> "ntfs_mst_pread" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1957,481  468,321 502,288 575,220 578,219 733,152 1169,143 1332,181 1543,228 1558,331 1754,420 1819,449 1899,468 1950,479"
+		color = "black"
+	]
+	"ntfs_lookup_attr" -> "ntfs_find_attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1204,1025  894,953 918,962 949,972 978,980 1053,999 1142,1015 1197,1024"
+		color = "black"
+	]
+	"ntfs_lookup_attr" -> "ntfs_find_external_attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,982,948  911,944 930,945 952,946 972,948"
+		color = "black"
+	]
+	"ntfs_lookup_inode_by_name" -> "ntfs_are_names_equal" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1385,1122  458,931 462,939 467,947 473,954 492,975 531,1013 578,1032 855,1143 1218,1133 1376,1123"
+		color = "black"
+	]
+	"ntfs_lookup_inode_by_name" -> "ntfs_attr_close" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,632,619  457,895 473,852 517,743 578,668 592,651 609,636 625,624"
+		color = "black"
+	]
+	"ntfs_lookup_inode_by_name" -> "ntfs_attr_mst_pread" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1958,777  541,910 641,907 804,897 942,875 959,872 962,868 978,866 1098,849 1129,855 1249,856 1249,856 1249,856 1647,856 1677,855 1858,805 1950,779"
+		color = "black"
+	]
+	"ntfs_lookup_inode_by_name" -> "ntfs_attr_open" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,618,860  499,898 533,887 578,872 611,862"
+		color = "black"
+	]
+	"ntfs_lookup_inode_by_name" -> "ntfs_collate_names" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1424,1025  468,931 492,952 534,988 578,1005 701,1050 1035,1052 1166,1059 1240,1062 1260,1073 1332,1059 1362,1053 1393,1040 1416,1029"
+		color = "black"
+	]
+	"ntfs_lookup_inode_by_name" -> "ntfs_lookup_attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,800,936  538,919 613,924 723,931 791,935"
+		color = "black"
+	]
+	"ntfs_merge_run_lists" -> "ntfs_debug_dump_run_list" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3123,515  2997,432 3017,450 3051,479 3084,498 3093,503 3104,507 3114,511"
+		color = "black"
+	]
+	"ntfs_merge_run_lists" -> "ntfs_rl_append" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3134,359  3019,400 3051,389 3095,373 3127,361"
+		color = "black"
+	]
+	"ntfs_merge_run_lists" -> "ntfs_rl_insert" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3129,301  2993,397 3012,376 3047,340 3084,319 3095,313 3108,308 3120,304"
+		color = "black"
+	]
+	"ntfs_merge_run_lists" -> "ntfs_rl_mm" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3345,416  3005,432 3026,443 3056,458 3084,465 3159,481 3183,485 3256,465 3287,457 3318,437 3339,421"
+		color = "black"
+	]
+	"ntfs_merge_run_lists" -> "ntfs_rl_realloc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3324,357  3041,407 3097,400 3183,387 3256,373 3276,369 3297,364 3315,359"
+		color = "black"
+	]
+	"ntfs_merge_run_lists" -> "ntfs_rl_replace" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3124,246  2986,397 3001,365 3036,300 3084,265 3093,258 3104,253 3115,249"
+		color = "black"
+	]
+	"ntfs_merge_run_lists" -> "ntfs_rl_split" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3128,433  3041,423 3066,426 3095,429 3119,432"
+		color = "black"
+	]
+	"ntfs_mount" -> "ntfs_attr_close" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,609,595  81,427 166,396 403,326 542,435 594,474 534,529 578,577 584,584 592,588 600,591"
+		color = "black"
+	]
+	"ntfs_mount" -> "ntfs_attr_mst_pread" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1963,750  54,421 68,366 111,204 128,188 237,90 305,123 450,124 450,124 450,124 1054,124 1281,123 1360,143 1540,281 1754,443 1721,578 1938,736 1944,740 1950,744 1957,747"
+		color = "black"
+	]
+	"ntfs_mount" -> "ntfs_attr_open" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,611,840  55,457 63,490 86,559 128,602 286,762 367,755 578,831 585,833 593,835 601,837"
+		color = "black"
+	]
+	"ntfs_mount" -> "ntfs_attr_pread" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2189,782  51,457 53,482 56,527 60,566 83,744 55,800 128,964 222,1170 224,1359 450,1360 450,1360 450,1360 1828,1360 2034,1359 2078,1218 2148,1025 2159,995 2163,988 2169,958 2182,898 2187,827 2189,790"
+		color = "black"
+	]
+	"ntfs_mount" -> "ntfs_close_inode" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1211,302  62,422 107,361 267,161 450,162 450,162 450,162 656,162 910,161 973,223 1202,299"
+		color = "black"
+	]
+	"ntfs_mount" -> "ntfs_get_mft_record_data_size" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,156,91  52,421 59,359 86,156 128,110 134,104 140,99 147,95"
+		color = "black"
+	]
+	"ntfs_mount" -> "ntfs_lookup_attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,855,958  52,457 65,548 132,956 358,1173 483,1291 585,1350 734,1265 813,1219 807,1173 834,1086 847,1046 852,997 854,967"
+		color = "black"
+	]
+	"ntfs_mount" -> "ntfs_open_inode" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,602,701  65,456 106,502 228,627 358,676 435,705 532,705 594,702"
+		color = "black"
+	]
+	"ntfs_mount" -> "ntfs_startup_volume" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,164,454  91,444 110,447 133,450 154,453"
+		color = "black"
+	]
+	"ntfs_mount" -> "ntfs_ucstombs" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,175,27  51,421 56,352 77,106 128,51 138,40 152,34 166,30"
+		color = "black"
+	]
+	"ntfs_mst_pread" -> "ntfs_post_read_mst_fixup" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2152,553  2037,504 2067,517 2112,536 2145,550"
+		color = "black"
+	]
+	"ntfs_mst_pread" -> "ntfs_pread" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2350,443  2017,473 2034,450 2068,412 2106,398 2176,371 2204,373 2274,398 2294,404 2293,416 2310,427 2324,435 2332,437 2341,440"
+		color = "black"
+	]
+	"ntfs_mst_pwrite" -> "ntfs_post_write_mst_fixup" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1401,486  1292,457 1322,464 1361,475 1394,484"
+		color = "black"
+	]
+	"ntfs_mst_pwrite" -> "ntfs_pre_write_mst_fixup" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1371,446  1305,446 1322,446 1342,446 1361,446"
+		color = "black"
+	]
+	"ntfs_mst_pwrite" -> "ntfs_pwrite" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1431,323  1273,430 1310,405 1382,356 1423,329"
+		color = "black"
+	]
+	"ntfs_open_extent_inode" -> "ntfs_read_file_record" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1401,776  1305,797 1332,792 1364,784 1392,778"
+		color = "black"
+	]
+	"ntfs_open_inode" -> "get_attribute_value" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1799,409  705,686 888,652 1520,533 1540,527 1635,496 1739,442 1792,413"
+		color = "black"
+	]
+	"ntfs_open_inode" -> "get_attribute_value_length" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,835,584  694,682 707,676 722,670 734,663 744,657 795,616 828,589"
+		color = "black"
+	]
+	"ntfs_open_inode" -> "ntfs_decompress_mapping_pairs" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2693,450  712,692 828,684 1103,665 1332,640 1848,582 2464,487 2684,451"
+		color = "black"
+	]
+	"ntfs_open_inode" -> "ntfs_lookup_attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,828,924  680,712 697,725 720,745 734,767 762,809 741,833 770,875 783,892 803,908 820,919"
+		color = "black"
+	]
+	"ntfs_open_inode" -> "ntfs_read_file_record" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1406,751  712,698 731,699 751,701 770,702 1020,717 1085,700 1332,736 1354,739 1377,743 1397,749"
+		color = "black"
+	]
+	"ntfs_read_clusters" -> "ntfs_pread" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2340,450  2243,434 2271,438 2304,444 2331,448"
+		color = "black"
+	]
+	"ntfs_readdir" -> "ntfs_attr_close" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,628,618  460,1128 479,1094 522,1013 542,940 576,822 520,774 578,668 588,650 605,635 621,623"
+		color = "black"
+	]
+	"ntfs_readdir" -> "ntfs_attr_mst_pread" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2000,782  487,1136 512,1130 547,1122 578,1119 647,1111 666,1107 734,1119 848,1138 866,1181 978,1206 1097,1231 1129,1229 1249,1230 1249,1230 1249,1230 1647,1230 1870,1229 1973,889 1998,790"
+		color = "black"
+	]
+	"ntfs_readdir" -> "ntfs_attr_open" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,642,866  461,1128 483,1094 533,1015 578,951 598,923 622,893 637,872"
+		color = "black"
+	]
+	"ntfs_readdir" -> "ntfs_attr_pread" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2187,782  463,1163 484,1190 529,1239 578,1265 691,1322 730,1321 856,1322 856,1322 856,1322 1828,1322 2084,1321 2168,904 2186,791"
+		color = "black"
+	]
+	"ntfs_readdir" -> "ntfs_filldir" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,615,1146  494,1146 526,1146 571,1146 604,1146"
+		color = "black"
+	]
+	"ntfs_readdir" -> "ntfs_get_parent_mft_ref" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,617,1222  479,1160 505,1172 544,1190 578,1206 588,1210 598,1214 608,1218"
+		color = "black"
+	]
+	"ntfs_readdir" -> "ntfs_lookup_attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,849,958  487,1156 513,1162 547,1169 578,1173 647,1180 675,1208 734,1173 774,1149 826,1020 846,965"
+		color = "black"
+	]
+	"ntfs_read_file_record" -> "ntfs_read_mft_record" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1576,764  1525,764 1539,764 1552,764 1566,764"
+		color = "black"
+	]
+	"ntfs_read_mft_record" -> "ntfs_read_mft_records" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1754,764  1718,764 1727,764 1735,764 1744,764"
+		color = "black"
+	]
+	"ntfs_read_mft_records" -> "ntfs_attr_mst_pread" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1938,764  1902,764 1911,764 1919,764 1928,764"
+		color = "black"
+	]
+	"ntfs_reset_logfile" -> "ntfs_attr_close" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,607,597  505,585 534,589 568,593 597,596"
+		color = "black"
+	]
+	"ntfs_reset_logfile" -> "ntfs_attr_open" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,610,840  496,590 513,597 531,607 542,622 597,693 520,752 578,821 584,828 592,833 601,836"
+		color = "black"
+	]
+	"ntfs_reset_logfile" -> "ntfs_attr_pread" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2147,754  509,577 531,576 556,576 578,576 648,575 667,560 734,576 752,579 753,588 770,593 1179,703 1299,618 1718,674 1876,694 1915,705 2070,737 2093,741 2117,746 2138,752"
+		color = "black"
+	]
+	"ntfs_reset_logfile" -> "ntfs_attr_pwrite" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,636,452  493,566 509,561 527,553 542,543 562,530 562,521 578,505 595,488 614,471 630,458"
+		color = "black"
+	]
+	"ntfs_reset_logfile" -> "ntfs_close_inode" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1192,315  477,563 505,550 521,559 542,536 582,491 538,450 578,408 660,322 1030,314 1183,315"
+		color = "black"
+	]
+	"ntfs_reset_logfile" -> "ntfs_open_inode" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,632,678  485,594 502,602 524,612 542,622 571,638 603,658 625,673"
+		color = "black"
+	]
+	"ntfs_rl_append" -> "ntfs_are_rl_mergeable" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3316,251  3217,338 3230,334 3244,328 3256,319 3280,301 3270,282 3292,265 3297,261 3301,258 3307,255"
+		color = "black"
+	]
+	"ntfs_rl_append" -> "ntfs_rl_mc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3331,302  3211,335 3244,326 3290,313 3324,304"
+		color = "black"
+	]
+	"ntfs_rl_append" -> "ntfs_rl_mm" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3329,390  3211,357 3244,366 3289,379 3322,388"
+		color = "black"
+	]
+	"ntfs_rl_append" -> "ntfs_rl_realloc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3314,346  3222,346 3248,346 3278,346 3305,346"
+		color = "black"
+	]
+	"ntfs_rl_insert" -> "ntfs_are_rl_mergeable" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3316,252  3209,281 3238,274 3277,263 3309,254"
+		color = "black"
+	]
+	"ntfs_rl_insert" -> "ntfs_rl_mc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3324,292  3218,292 3247,292 3285,292 3314,292"
+		color = "black"
+	]
+	"ntfs_rl_insert" -> "ntfs_rl_mm" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3328,391  3214,299 3228,303 3244,309 3256,319 3280,336 3270,355 3292,373 3300,379 3310,384 3319,388"
+		color = "black"
+	]
+	"ntfs_rl_insert" -> "ntfs_rl_realloc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3325,335  3209,303 3240,311 3285,323 3318,333"
+		color = "black"
+	]
+	"ntfs_rl_merge" -> "ntfs_are_rl_mergeable" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3316,225  3209,195 3238,203 3277,214 3309,223"
+		color = "black"
+	]
+	"ntfs_rl_pwrite" -> "ntfs_pwrite" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1417,300  1291,272 1326,279 1374,290 1410,298"
+		color = "black"
+	]
+	"ntfs_rl_replace" -> "ntfs_are_rl_mergeable" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3292,238  3222,238 3240,238 3261,238 3282,238"
+		color = "black"
+	]
+	"ntfs_rl_replace" -> "ntfs_rl_mc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3331,282  3211,249 3244,258 3290,271 3324,280"
+		color = "black"
+	]
+	"ntfs_rl_replace" -> "ntfs_rl_mm" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3326,392  3219,244 3232,248 3246,255 3256,265 3293,300 3257,336 3292,373 3299,380 3308,385 3317,389"
+		color = "black"
+	]
+	"ntfs_rl_replace" -> "ntfs_rl_realloc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3324,335  3217,246 3230,250 3245,256 3256,265 3280,282 3270,301 3292,319 3299,324 3307,328 3315,331"
+		color = "black"
+	]
+	"ntfs_rl_split" -> "ntfs_rl_mc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3329,300  3194,423 3213,411 3238,392 3256,373 3276,352 3270,336 3292,319 3300,312 3310,307 3320,303"
+		color = "black"
+	]
+	"ntfs_rl_split" -> "ntfs_rl_mm" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3326,408  3210,430 3242,423 3286,415 3319,409"
+		color = "black"
+	]
+	"ntfs_rl_split" -> "ntfs_rl_realloc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,3325,357  3206,428 3222,423 3241,415 3256,406 3275,394 3274,384 3292,373 3299,369 3308,364 3316,361"
+		color = "black"
+	]
+	"ntfs_set_volume_flags" -> "ntfs_lookup_attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,831,924  709,807 718,810 727,815 734,821 757,838 751,854 770,875 786,892 806,907 824,919"
+		color = "black"
+	]
+	"ntfs_set_volume_flags" -> "ntfs_read_file_record" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1384,767  729,792 822,789 988,783 1130,778 1214,774 1310,770 1375,767"
+		color = "black"
+	]
+	"ntfs_set_volume_flags" -> "ntfs_write_mft_record" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,795,522  682,777 699,764 721,744 734,722 775,649 715,600 770,539 775,534 780,530 786,527"
+		color = "black"
+	]
+	"ntfs_startup_volume" -> "is_boot_sector_ntfs" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,401,504  275,474 310,482 357,493 393,502"
+		color = "black"
+	]
+	"ntfs_startup_volume" -> "ntfs_load_mft" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,422,353  255,446 296,424 369,383 413,358"
+		color = "black"
+	]
+	"ntfs_startup_volume" -> "ntfs_load_mftmirr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,412,635  238,480 260,509 307,568 358,606 371,616 388,624 403,631"
+		color = "black"
+	]
+	"ntfs_startup_volume" -> "ntfs_pread" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,2353,442  232,444 264,360 412,9 656,10 656,10 656,10 1249,10 1507,9 1571,47 1828,48 1828,48 1828,48 2004,48 2192,47 2156,227 2274,373 2291,392 2291,401 2310,418 2324,429 2333,432 2344,437"
+		color = "black"
+	]
+	"ntfs_startup_volume" -> "parse_ntfs_boot_sector" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,375,462  293,462 316,462 341,462 365,462"
+		color = "black"
+	]
+	"ntfs_walk_attrs" -> "ntfs_lookup_attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,807,949  703,969 731,964 768,957 797,951"
+		color = "black"
+	]
+	"ntfs_write_clusters" -> "ntfs_pwrite" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1432,293  1295,220 1307,224 1320,229 1332,235 1365,250 1400,272 1424,288"
+		color = "black"
+	]
+	"ntfs_write_mft_record" -> "ntfs_write_mft_records" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,978,512  929,512 942,512 955,512 968,512"
+		color = "black"
+	]
+	"ntfs_write_mft_records" -> "ntfs_attr_mst_pwrite" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1182,504  1128,507 1143,506 1158,505 1172,505"
+		color = "black"
+	]
+}

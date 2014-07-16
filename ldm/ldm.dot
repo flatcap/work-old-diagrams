@@ -1,0 +1,747 @@
+digraph "bla" {
+	graph [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		rankdir = "LR"
+		bb = "0,0,1316,691"
+		color = "black"
+	]
+	node [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "ellipse"
+		color = "black"
+	]
+	edge [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+	]
+	"ldm_create_data_partitions" [
+		label = "\N"
+		color = "black"
+		width = "2.390000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "233,530"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_create_partition" [
+		label = "\N"
+		color = "black"
+		width = "1.890000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "440,638"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_find_vblk" [
+		label = "\N"
+		color = "black"
+		width = "1.440000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "440,584"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_get_disk_objid" [
+		label = "\N"
+		color = "black"
+		width = "1.830000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "440,530"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_md_addpart" [
+		label = "\N"
+		color = "black"
+		width = "1.610000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "440,476"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_frag_commit" [
+		label = "\N"
+		color = "black"
+		width = "1.690000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "440,422"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_ldmdb_add" [
+		label = "\N"
+		color = "black"
+		width = "1.560000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "624,422"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_get_vblks" [
+		label = "\N"
+		color = "black"
+		width = "1.440000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "233,330"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_frag_add" [
+		label = "\N"
+		color = "black"
+		width = "1.360000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "440,330"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_frag_free" [
+		label = "\N"
+		color = "black"
+		width = "1.390000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "440,276"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_parse_vblk" [
+		label = "\N"
+		color = "black"
+		width = "1.530000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "784,435"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_parse_cmp3" [
+		label = "\N"
+		color = "black"
+		width = "1.610000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "935,581"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_get_vnum" [
+		label = "\N"
+		color = "black"
+		width = "1.440000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1086,608"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_get_vstr" [
+		label = "\N"
+		color = "black"
+		width = "1.310000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1086,354"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_relative" [
+		label = "\N"
+		color = "black"
+		width = "1.250000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1086,458"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_parse_dgr3" [
+		label = "\N"
+		color = "black"
+		width = "1.530000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "935,381"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_parse_dgr4" [
+		label = "\N"
+		color = "black"
+		width = "1.530000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "935,327"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_parse_dsk3" [
+		label = "\N"
+		color = "black"
+		width = "1.560000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "935,273"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_parse_guid" [
+		label = "\N"
+		color = "black"
+		width = "1.530000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1086,231"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_parse_dsk4" [
+		label = "\N"
+		color = "black"
+		width = "1.560000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "935,435"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_parse_hexbyte" [
+		label = "\N"
+		color = "black"
+		width = "1.810000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "1243,231"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_parse_privhead" [
+		label = "\N"
+		color = "black"
+		width = "1.860000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "624,216"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_parse_prt3" [
+		label = "\N"
+		color = "black"
+		width = "1.500000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "935,635"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_parse_vol5" [
+		label = "\N"
+		color = "black"
+		width = "1.530000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "935,527"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_partition" [
+		label = "\N"
+		color = "black"
+		width = "1.330000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "57,180"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_free_vblks" [
+		label = "\N"
+		color = "black"
+		width = "1.500000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "233,180"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_validate_partition_table" [
+		label = "\N"
+		color = "black"
+		width = "2.530000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "233,126"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_validate_privheads" [
+		label = "\N"
+		color = "black"
+		width = "2.140000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "233,234"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_validate_tocblocks" [
+		label = "\N"
+		color = "black"
+		width = "2.140000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "233,72"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_validate_vmdb" [
+		label = "\N"
+		color = "black"
+		width = "1.830000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "233,18"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_compare_privheads" [
+		label = "\N"
+		color = "black"
+		width = "2.190000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "440,184"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_compare_tocblocks" [
+		label = "\N"
+		color = "black"
+		width = "2.190000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "440,126"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_parse_tocblock" [
+		label = "\N"
+		color = "black"
+		width = "1.860000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "440,72"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_parse_vmdb" [
+		label = "\N"
+		color = "black"
+		width = "1.640000"
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "440,18"
+		height = "0.500000"
+		shape = "ellipse"
+	]
+	"ldm_create_data_partitions" -> "ldm_create_partition" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,394,624  257,548 282,565 322,593 360,611 368,615 376,618 385,621"
+		color = "black"
+	]
+	"ldm_create_data_partitions" -> "ldm_find_vblk" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,398,573  287,544 318,552 357,563 388,570"
+		color = "black"
+	]
+	"ldm_create_data_partitions" -> "ldm_get_disk_objid" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,373,530  320,530 335,530 349,530 363,530"
+		color = "black"
+	]
+	"ldm_create_data_partitions" -> "ldm_md_addpart" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,395,488  287,516 318,508 355,498 385,490"
+		color = "black"
+	]
+	"ldm_frag_commit" -> "ldm_ldmdb_add" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,568,422  501,422 520,422 540,422 558,422"
+		color = "black"
+	]
+	"ldm_get_vblks" -> "ldm_frag_add" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,390,330  285,330 315,330 351,330 380,330"
+		color = "black"
+	]
+	"ldm_get_vblks" -> "ldm_frag_commit" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,403,408  263,345 289,357 327,375 360,390 371,395 383,399 394,404"
+		color = "black"
+	]
+	"ldm_get_vblks" -> "ldm_frag_free" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,399,287  275,319 309,310 356,298 392,289"
+		color = "black"
+	]
+	"ldm_get_vblks" -> "ldm_ldmdb_add" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,581,410  277,340 334,352 434,374 520,395 537,399 555,403 572,408"
+		color = "black"
+	]
+	"ldm_ldmdb_add" -> "ldm_parse_vblk" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,730,430  679,426 693,427 707,428 720,429"
+		color = "black"
+	]
+	"ldm_parse_cmp3" -> "ldm_get_vnum" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1039,600  986,590 1000,592 1015,596 1029,598"
+		color = "black"
+	]
+	"ldm_parse_cmp3" -> "ldm_get_vstr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1071,371  976,568 983,564 989,560 994,554 1032,510 1005,482 1030,431 1039,412 1053,392 1065,378"
+		color = "black"
+	]
+	"ldm_parse_cmp3" -> "ldm_relative" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1073,475  971,567 979,563 987,559 994,554 1024,533 1050,503 1068,482"
+		color = "black"
+	]
+	"ldm_parse_dgr3" -> "ldm_get_vstr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1043,362  984,372 1000,370 1017,366 1033,364"
+		color = "black"
+	]
+	"ldm_parse_dgr3" -> "ldm_relative" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1060,443  968,396 977,399 986,404 994,408 1014,418 1035,429 1052,439"
+		color = "black"
+	]
+	"ldm_parse_dgr4" -> "ldm_get_vstr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1043,346  984,336 1000,338 1017,342 1033,344"
+		color = "black"
+	]
+	"ldm_parse_dgr4" -> "ldm_relative" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1074,440  972,341 980,344 987,349 994,354 1025,376 1052,410 1069,433"
+		color = "black"
+	]
+	"ldm_parse_dsk3" -> "ldm_get_vstr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1062,338  969,287 977,291 986,296 994,300 1015,310 1037,323 1055,334"
+		color = "black"
+	]
+	"ldm_parse_dsk3" -> "ldm_parse_guid" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1044,243  977,261 995,256 1016,251 1035,246"
+		color = "black"
+	]
+	"ldm_parse_dsk3" -> "ldm_relative" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1072,441  975,286 982,290 989,294 994,300 1022,328 1011,346 1030,381 1041,399 1055,420 1067,434"
+		color = "black"
+	]
+	"ldm_parse_dsk4" -> "ldm_relative" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1043,451  986,443 1002,445 1019,448 1034,450"
+		color = "black"
+	]
+	"ldm_parse_guid" -> "ldm_parse_hexbyte" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1178,231  1142,231 1151,231 1159,231 1168,231"
+		color = "black"
+	]
+	"ldm_parse_privhead" -> "ldm_parse_guid" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1033,226  692,216 766,216 889,218 994,223 1003,224 1013,224 1023,225"
+		color = "black"
+	]
+	"ldm_parse_prt3" -> "ldm_get_vnum" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1039,616  983,626 998,624 1014,621 1029,618"
+		color = "black"
+	]
+	"ldm_parse_prt3" -> "ldm_relative" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1079,476  973,622 980,618 988,614 994,608 1034,573 1063,515 1076,483"
+		color = "black"
+	]
+	"ldm_parse_vblk" -> "ldm_get_vnum" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1065,625  786,453 788,469 792,491 798,510 814,558 841,640 876,662 921,689 944,675 994,662 1018,655 1041,642 1058,630"
+		color = "black"
+	]
+	"ldm_parse_vblk" -> "ldm_get_vstr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1077,336  786,417 793,377 814,283 876,246 921,220 947,225 994,246 1031,262 1058,301 1073,328"
+		color = "black"
+	]
+	"ldm_parse_vblk" -> "ldm_parse_cmp3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,898,567  794,453 809,478 840,525 876,554 880,557 885,560 889,562"
+		color = "black"
+	]
+	"ldm_parse_vblk" -> "ldm_parse_dgr3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,898,394  821,422 841,415 867,406 889,397"
+		color = "black"
+	]
+	"ldm_parse_vblk" -> "ldm_parse_dgr4" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,900,341  801,418 818,400 848,372 876,354 881,351 886,348 891,345"
+		color = "black"
+	]
+	"ldm_parse_vblk" -> "ldm_parse_dsk3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,897,287  792,417 806,388 836,333 876,300 880,297 884,294 888,291"
+		color = "black"
+	]
+	"ldm_parse_vblk" -> "ldm_parse_dsk4" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,879,435  840,435 850,435 859,435 869,435"
+		color = "black"
+	]
+	"ldm_parse_vblk" -> "ldm_parse_prt3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,897,622  789,453 800,487 829,563 876,608 880,612 884,615 888,617"
+		color = "black"
+	]
+	"ldm_parse_vblk" -> "ldm_parse_vol5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,906,512  808,451 827,464 853,481 876,495 883,499 890,503 897,507"
+		color = "black"
+	]
+	"ldm_parse_vblk" -> "ldm_relative" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1042,463  822,448 838,453 858,459 876,462 929,469 991,467 1033,464"
+		color = "black"
+	]
+	"ldm_parse_vol5" -> "ldm_get_vnum" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1061,592  969,541 977,545 986,550 994,554 1015,564 1037,577 1054,588"
+		color = "black"
+	]
+	"ldm_parse_vol5" -> "ldm_get_vstr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1072,371  951,510 963,497 980,478 994,462 1019,433 1048,400 1066,378"
+		color = "black"
+	]
+	"ldm_parse_vol5" -> "ldm_relative" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,1056,472  967,512 991,501 1023,486 1048,476"
+		color = "black"
+	]
+	"ldm_partition" -> "ldm_create_data_partitions" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,223,512  65,198 80,230 113,299 142,357 169,410 202,471 220,505"
+		color = "black"
+	]
+	"ldm_partition" -> "ldm_free_vblks" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,179,180  106,180 126,180 149,180 169,180"
+		color = "black"
+	]
+	"ldm_partition" -> "ldm_get_vblks" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,210,314  74,197 91,214 118,240 142,261 162,278 186,295 203,309"
+		color = "black"
+	]
+	"ldm_partition" -> "ldm_validate_partition_table" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,182,141  94,168 109,164 127,158 142,153 152,150 162,147 173,144"
+		color = "black"
+	]
+	"ldm_partition" -> "ldm_validate_privheads" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,184,220  94,192 109,197 126,202 142,207 153,210 164,214 175,217"
+		color = "black"
+	]
+	"ldm_partition" -> "ldm_validate_tocblocks" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,177,84  71,163 87,144 113,116 142,99 150,95 159,91 168,87"
+		color = "black"
+	]
+	"ldm_partition" -> "ldm_validate_vmdb" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,177,28  64,162 75,133 102,76 142,45 149,39 159,35 168,31"
+		color = "black"
+	]
+	"ldm_validate_privheads" -> "ldm_compare_privheads" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,385,197  287,221 314,215 347,206 376,199"
+		color = "black"
+	]
+	"ldm_validate_privheads" -> "ldm_parse_privhead" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,557,219  309,230 378,227 479,222 548,219"
+		color = "black"
+	]
+	"ldm_validate_tocblocks" -> "ldm_compare_tocblocks" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,388,112  284,85 313,92 348,102 378,110"
+		color = "black"
+	]
+	"ldm_validate_tocblocks" -> "ldm_parse_tocblock" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,373,72  310,72 328,72 346,72 363,72"
+		color = "black"
+	]
+	"ldm_validate_vmdb" -> "ldm_parse_vmdb" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		pos = "e,381,18  300,18 323,18 349,18 372,18"
+		color = "black"
+	]
+}
